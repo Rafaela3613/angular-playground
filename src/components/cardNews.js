@@ -15,7 +15,7 @@
         cardLeft.setAttribute("class", "card__left");
     
         const autor = document.createElement("span");
-        autor.textContent = "By " + (this.getAttribute("autor") || "Anonymous");
+        autor.textContent = "By " + (this.getAttribute("autor") || "Rafaela");
     
         const linkTitle = document.createElement("a");
         linkTitle.textContent = this.getAttribute("title");
